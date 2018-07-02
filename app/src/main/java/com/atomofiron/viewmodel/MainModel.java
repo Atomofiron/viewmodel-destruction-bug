@@ -7,7 +7,7 @@ public class MainModel extends ViewModel {
 
 	public MutableLiveData<Float> data = new MutableLiveData<>();
 
-	MainModel() {
+	public MainModel() {
 		float value = (float) Math.random();
 		I.log("new MainModel " + value);
 		data.setValue(value);
